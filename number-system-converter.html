@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number System Converter</h1>
+        <p>
+            Select base of number you want to convert from " Binary | Octal | Decimal | Hexadecimal "
+            options to convert this number from selected base to other three bases.
+        </p>
+        <div class="parent">
+            <select id="n-system">
+                <option value="decimal">Decimal</option>
+                <option value="binary">Binary</option>
+                <option value="octal">Octal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+            <input type="text" class="input" placeholder="Enter Number To Convert">
+            <button>Convert</button>
+            <div class="result">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+    </div>
+    <script src="number-system-converter.js"></script>
+</body>
+</html>
